@@ -53,7 +53,7 @@
 }
 
 body {
-  font-family: 'Manrope';
+  font-family: 'Inter';
   font-weight: 400;
   background-color: var(--background);
   color: var(--text);
