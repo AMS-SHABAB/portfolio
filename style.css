@@ -192,11 +192,13 @@ span {
 .button.first {
   top: 12%;
   right: 20%;
+  left: auto; /* remove any left positioning */
 }
 
 .button.sec {
   bottom: 13%;
   right: 11%;
+  left: auto;
 }
 
 .button.sec > button {
@@ -211,7 +213,8 @@ span {
 
 .button.third {
   bottom: 55%;
-  left: 15%;
+  right: 18%;  /* move to right side */
+  left: auto;  /* ensure left positioning is removed */
 }
 
 .button.third > button {
