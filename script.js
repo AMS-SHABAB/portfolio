@@ -1,6 +1,5 @@
-
   const image = document.getElementById("dynamicImage");
-  const effects = ["grayscale", "cyberpink", "original"];
+  const effects = ["grayscale", "orange", "original"];
   let index = 0;
 
   setInterval(() => {
