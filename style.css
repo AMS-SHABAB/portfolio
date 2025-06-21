@@ -151,16 +151,16 @@ body {
 }
 
 button {
-  height: 50px;
-  width: 160px;
+  height: 60px;
+  width: 170px;
   clip-path: path("M 0 25 C 0 -5, -5 0, 80 0 S 160 -5, 160 25, 165 50 80 50, 0 55, 0 25");
   border: none;
   border-radius: 13px;
   background-color: var(--primaryBg);
   box-shadow: 0px -3px 15px 0px var(--primaryHi) inset;
   color: var(--primaryFg);
-  font-family: "Manrope";
-  font-size: 1rem;
+  font-family: "Inter";
+  font-size: 2rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -210,7 +210,7 @@ span {
 }
 
 .button.third {
-  bottom: 25%;
+  bottom: 55%;
   left: 15%;
 }
 
