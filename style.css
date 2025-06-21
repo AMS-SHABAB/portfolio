@@ -5,22 +5,33 @@
   width: 550px;
   height: 550px;
   border-radius: 20px;
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  background: rgba(255, 255, 255, 0.1);
+
+  /* Glassmorphic effect */
+  backdrop-filter: blur(15px);
+  -webkit-backdrop-filter: blur(15px);
+  background: rgba(255, 255, 255, 0.05);
+
+  /* Transparency */
+  opacity: 0.8;
+
+  /* Position behind other elements */
+  z-index: -1;
+
   transition: all 1s ease;
-  z-index: 1000;
 }
+
+/* Effects */
 .grayscale {
   filter: grayscale(100%) opacity(0.8);
 }
-.cyberpink {
-  filter: hue-rotate(300deg) saturate(2) contrast(1.2) brightness(1.1) opacity(0.8);
+.orange {
+  filter: sepia(1) hue-rotate(-20deg) saturate(3) brightness(1.2) opacity(0.8);
 }
 .original {
   filter: none;
   opacity: 0.8;
 }
+
 
 @import url('https://fonts.googleapis.com/css?family=Manrope:700|Manrope:400');
 
