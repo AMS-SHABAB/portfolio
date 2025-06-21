@@ -1,14 +1,11 @@
-
  .fixed-image {
-  position: fixed;
-  top: 0;
-  right: 490px;
-  width: 550px;
-  height: 550px;
-  /* If you want the image to always fit, you may want to add: */
-  /* object-fit: cover; */
-}
-    
+      position: fixed;
+      top: 0;
+      right: 790px;
+      /* No width or height set; original image size will be used */
+      width: 550px;
+      height: 550px;
+    }
 @import url('https://fonts.googleapis.com/css?family=Manrope:700|Manrope:400');
 
 :root {
