@@ -192,13 +192,11 @@ span {
 .button.first {
   top: 12%;
   right: 20%;
-  left: auto; /* remove any left positioning */
 }
 
 .button.sec {
   bottom: 13%;
   right: 11%;
-  left: auto;
 }
 
 .button.sec > button {
@@ -212,9 +210,8 @@ span {
 }
 
 .button.third {
-  bottom: 55%;
-  right: 18%;  /* move to right side */
-  left: auto;  /* ensure left positioning is removed */
+  top: 55%;
+  right: 15%;
 }
 
 .button.third > button {
@@ -223,9 +220,6 @@ span {
   color: var(--secondaryFg);
 }
 
-.button.third > span {
-  background-color: var(--secondaryHi);
-}
 
 
 .top-right {
