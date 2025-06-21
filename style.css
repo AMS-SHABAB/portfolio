@@ -2,7 +2,7 @@
  .fixed-image {
   position: fixed;
   top: 0;
-  right: 790px;
+  left: 490px;
   width: 550px;
   height: 550px;
   /* If you want the image to always fit, you may want to add: */
